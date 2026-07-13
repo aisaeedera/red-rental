@@ -92,6 +92,13 @@ export function Perfect() {
         <h2 className="section-title">
           Perfect For Your <span className="red">Production</span>
         </h2>
+        <p className="section-intro">
+          BIG STORY · RED RENTAL is Dubai&apos;s specialist for RED Komodo X 6K
+          cinema camera rental — a Netflix-approved camera delivered ready-to-shoot with a
+          certified RED specialist on set. Whether you need cinema camera rental in Dubai for a
+          TVC, a RED camera rental across the UAE for a short film, or full film equipment rental
+          in Dubai for a branded campaign, every kit ships from AED 900/day.
+        </p>
         <div className="grid grid-5" style={{ marginTop: 40 }}>
           {AUDIENCES.map((a) => (
             <div className="card audience-card" key={a.title}>
@@ -154,8 +161,10 @@ export function Delivery() {
           Delivery &amp; <span className="gold">Transport</span>
         </h2>
         <p className="section-intro">
-          All RED equipment is transported in a dedicated van by our team. There is no client
-          pickup — we come to you. Equipment is set up on arrival.
+          Free RED Komodo X rental delivery within Dubai, with cinema camera rental delivery
+          available across the UAE — Abu Dhabi, Sharjah, RAK, Ajman, Al Ain and Fujairah. All RED
+          equipment is transported in a dedicated van by our team. There is no client pickup — we
+          come to you, and the kit is set up ready-to-shoot on arrival.
         </p>
         <div className="grid grid-4">
           {DELIVERY.map((d) => (
@@ -436,6 +445,15 @@ export function Agreements() {
                 <h4>{a.title}</h4>
                 <div className="fname">{a.fname}</div>
                 <p>{a.desc}</p>
+                <a
+                  className="btn btn-ghost"
+                  href={a.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginTop: 14, marginBottom: 14 }}
+                >
+                  📄 View / Download →
+                </a>
                 <span className="warn">⚠ Subject to updates — final version sent directly to you</span>
               </div>
             </div>

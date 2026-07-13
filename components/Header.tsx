@@ -18,7 +18,7 @@ export default function Header() {
     <header className="site-header">
       <div className="wrap">
         <a href="#top" className="brand">
-          BIG STORY <span className="red">· RED</span>
+          BIG STORY <span className="red">· RED RENTAL</span>
         </a>
         <nav className="nav-links">
           {NAV.map((n) => (

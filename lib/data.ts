@@ -316,6 +316,6 @@ export const CONTACT_CARDS = [
 
 // ---------- agreements ----------
 export const AGREEMENTS = [
-  { icon: "📋", title: "Daily Delivery Handover Report", fname: "BIG_STORY_Daily_Delivery_Handover_Report", desc: "Completed on arrival at your location. Documents equipment condition, items delivered, and confirms handover between our specialist and your production team." },
-  { icon: "📄", title: "Post-Rental Return Report", fname: "BIG_STORY_Daily_Post_Rental_Return_Report", desc: "Completed at end of shoot day. Documents equipment return condition, confirms all items returned, and records any issues for our records before the kit is packed into the van." },
+  { icon: "📋", title: "Daily Delivery Handover Report", fname: "BIG_STORY_Daily_Delivery_Handover_Report", href: "/rental-agreements/delivery-handover", desc: "Completed on arrival at your location. Documents equipment condition, items delivered, and confirms handover between our specialist and your production team." },
+  { icon: "📄", title: "Post-Rental Return Report", fname: "BIG_STORY_Daily_Post_Rental_Return_Report", href: "/rental-agreements/post-rental-return", desc: "Completed at end of shoot day. Documents equipment return condition, confirms all items returned, and records any issues for our records before the kit is packed into the van." },
 ];
