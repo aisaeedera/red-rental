@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="64" viewBox="0 0 264 64" role="img" aria-label="BIG STORY logo">
+  <!-- Official BIG STORY logo lockup. Faithful reproduction of the company mark
+       (src: filmwithbigstory react-site src/app/icon.svg) + official wordmark
+       "BIG·STORY" (src: filmwithbigstory react-site src/components/Nav.tsx Wordmark).
+       Transparent background; vector for print sharpness. Brand palette only:
+       near-black #08080A / #141416, off-white #FAFAF7, gold #C9A227. -->
+  <!-- Mark badge (2x scale of official icon.svg geometry) -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#08080A"/>
+  <text x="32" y="43" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#FAFAF7" text-anchor="middle">B</text>
+  <circle cx="47" cy="18" r="4" fill="#C9A227"/>
+  <!-- Wordmark -->
+  <text x="78" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="1" fill="#141416">BIG<tspan dx="2" fill="#C9A227">·</tspan><tspan dx="2">STORY</tspan></text>
+</svg>

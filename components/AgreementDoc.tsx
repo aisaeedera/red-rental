@@ -43,7 +43,14 @@ export default function AgreementDoc({
       <div className="ad-sheet">
         <header className="ad-head">
           <div className="ad-brand">
-            BIG STORY <span>· RED RENTAL</span>
+            <img
+              className="ad-logo"
+              src="/bigstory-logo.svg"
+              width={264}
+              height={64}
+              alt="BIG STORY — official company logo (dark badge with serif B and gold dot, wordmark BIG·STORY)"
+            />
+            <div className="ad-brand-sub">RED RENTAL</div>
           </div>
           <div className="ad-meta">
             <div>{CONTACT.location}</div>
@@ -193,17 +200,27 @@ export default function AgreementDoc({
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
+          gap: 16px;
           border-bottom: 3px solid #e40613;
           padding-bottom: 16px;
         }
-        .ad-brand {
-          font-size: 26px;
+        .ad-brand { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+        .ad-brand-sub {
+          font-size: 13px;
           font-weight: 800;
-          letter-spacing: 1px;
-          color: #111;
+          letter-spacing: 2px;
+          color: #e40613;
         }
-        .ad-brand span { color: #e40613; }
-        .ad-meta { text-align: right; font-size: 12px; color: #444; line-height: 1.7; }
+        .ad-logo {
+          display: block;
+          height: 46px;
+          width: auto;
+          max-width: 100%;
+          /* Force exact colors so the dark badge + gold dot survive Print / Save as PDF */
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .ad-meta { text-align: right; font-size: 12px; color: #444; line-height: 1.7; flex-shrink: 0; }
         .ad-title-block { margin: 26px 0 10px; }
         .ad-code {
           font-size: 11px;
@@ -270,7 +287,17 @@ export default function AgreementDoc({
           .no-print { display: none !important; }
           .agreement-doc { background: #fff; padding: 0; }
           .ad-sheet { box-shadow: none; max-width: none; padding: 0; margin: 0; }
+          /* Logo must keep its exact brand colors (dark badge + gold) in Print / Save as PDF */
+          .ad-logo {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+          }
           @page { margin: 16mm; }
+        }
+        /* Small screens: keep header readable, prevent logo/contact overlap */
+        @media (max-width: 560px) {
+          .ad-head { flex-direction: column; align-items: flex-start; }
+          .ad-meta { text-align: left; }
         }
       `}</style>
     </div>
