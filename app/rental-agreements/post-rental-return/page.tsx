@@ -4,7 +4,7 @@ import AgreementDoc from "@/components/AgreementDoc";
 export const metadata: Metadata = {
   title: "Daily Post-Rental Return Report | BIG STORY · RED RENTAL Dubai",
   description:
-    "Printable RED Komodo X rental return report — end-of-day equipment checklist, return condition declaration and signature lines for cinema camera rental in Dubai.",
+    "Printable RED Komodo X rental return report, end-of-day equipment checklist, return condition declaration and signature lines for cinema camera rental in Dubai.",
   alternates: { canonical: "/rental-agreements/post-rental-return" },
 };
 

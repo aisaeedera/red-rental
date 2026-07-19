@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 const SITE_URL = "https://red.filmwithbigstory.com";
 
-// AI / LLM crawlers we explicitly welcome — we WANT to be cited by AI search.
+// AI / LLM crawlers we explicitly welcome, we WANT to be cited by AI search.
 const AI_BOTS = [
   "GPTBot",
   "OAI-SearchBot",
@@ -33,7 +33,7 @@ const AI_BOTS = [
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // Standard search + everything else — full access.
+      // Standard search + everything else, full access.
       { userAgent: "*", allow: "/" },
       // Explicitly allow every AI/LLM crawler.
       ...AI_BOTS.map((bot) => ({ userAgent: bot, allow: "/" })),

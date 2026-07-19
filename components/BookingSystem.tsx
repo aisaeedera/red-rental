@@ -135,12 +135,12 @@ export default function BookingSystem() {
       const pkg = PACKAGES.find((p) => p.id === d.pkgId)!;
       const transport = TRANSPORT.find((t) => t.id === d.transportId)!;
       const eligible = daysUntil(d.date) >= 7;
-      return `• ${d.date} — ${pkg.name} (AED ${pkg.price}) · ${transport.label}${
+      return `• ${d.date}, ${pkg.name} (AED ${pkg.price}) · ${transport.label}${
         eligible ? " · early-booking eligible" : ""
       }`;
     });
     return (
-      `Hi BIG STORY — RED rental booking request:\n\n` +
+      `Hi BIG STORY, RED rental booking request:\n\n` +
       lines.join("\n") +
       `\n\nRED Camera Specialist: AED ${SPECIALIST_FEE}/day (mandatory)` +
       (intercom ? `\nHollyland Intercom: +AED ${INTERCOM_FEE}/day` : "") +
@@ -161,7 +161,7 @@ export default function BookingSystem() {
             Check &amp; <span className="gold">Select Dates</span>
           </h2>
           <p className="section-intro">
-            One RED Komodo X body — one rental at a time. Select one or multiple available
+            One RED Komodo X body, one rental at a time. Select one or multiple available
             dates below, then scroll down to pick a package for each day and send your
             booking.
           </p>
@@ -269,7 +269,7 @@ export default function BookingSystem() {
           </h2>
 
           <div className="builder">
-            <h3>Step 1 — Build Your Order</h3>
+            <h3>Step 1: Build Your Order</h3>
             {order.length === 0 ? (
               <p className="muted mono" style={{ fontSize: 13 }}>
                 No shoot days yet. Select available dates in the calendar above and click
@@ -304,7 +304,7 @@ export default function BookingSystem() {
                           >
                             {PACKAGES.map((p) => (
                               <option key={p.id} value={p.id}>
-                                {p.name} — AED {p.price}
+                                {p.name}, AED {p.price}
                               </option>
                             ))}
                           </select>
@@ -323,7 +323,7 @@ export default function BookingSystem() {
                           </select>
                         </td>
                         <td>AED {rate.toLocaleString()}</td>
-                        <td>{eligible ? <span className="hl-gold">−20%</span> : "—"}</td>
+                        <td>{eligible ? <span className="hl-gold">−20%</span> : <span className="muted">n/a</span>}</td>
                         <td>
                           <button className="remove" onClick={() => removeDay(d.id)} aria-label="Remove day">
                             ✕
@@ -337,7 +337,7 @@ export default function BookingSystem() {
             )}
 
             <div className="mandatory-box">
-              <h4>🔒 RED Camera Specialist — AED {SPECIALIST_FEE}/day (Launch Price) — Mandatory</h4>
+              <h4>🔒 RED Camera Specialist, AED {SPECIALIST_FEE}/day (Launch Price) · Mandatory</h4>
               <p>
                 Required on every RED rental to protect the equipment. Handles van logistics,
                 full rig assembly, operation support, focus pulling, on-set technical issues,
@@ -362,7 +362,7 @@ export default function BookingSystem() {
               20% off equipment · booked 7+ days ahead · paid in full
             </p>
 
-            <h3 style={{ marginTop: 32 }}>Step 2 — Your Details + Send</h3>
+            <h3 style={{ marginTop: 32 }}>Step 2: Your Details + Send</h3>
             <div className="form-grid">
               <div className="form-field">
                 <label>Your Name</label>

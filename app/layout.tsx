@@ -32,7 +32,7 @@ const plexMono = IBM_Plex_Mono({
 const SITE_URL = "https://red.filmwithbigstory.com";
 const TITLE = "RED Komodo X 6K Rental Dubai | AED 900/day | BIG STORY";
 const DESCRIPTION =
-  "RED Komodo X 6K cinema camera rental in Dubai from AED 900/day. Below-market rates, certified RED specialist on set, free delivery within Dubai. Netflix-approved cinema camera rental across the UAE — full film equipment kits with cine lenses, lighting & audio. Book now.";
+  "RED Komodo X 6K cinema camera rental in Dubai from AED 900/day. Below-market rates, certified RED specialist on set, free delivery within Dubai. Netflix-approved cinema camera rental across the UAE. Full film equipment kits with cine lenses, lighting & audio. Book now.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "RED Komodo X 6K cinema camera rental in Dubai — BIG STORY · RED RENTAL",
+        alt: "RED Komodo X 6K cinema camera rental in Dubai, BIG STORY · RED RENTAL",
       },
     ],
   },
@@ -147,7 +147,7 @@ const services = {
 const products = PACKAGES.map((p) => ({
   "@type": "Product",
   "@id": `${SITE_URL}/#product-${p.id}`,
-  name: `${p.name} — RED Komodo X Rental Dubai`,
+  name: `${p.name}, RED Komodo X Rental Dubai`,
   description: p.desc,
   brand: { "@type": "Brand", name: "RED Digital Cinema" },
   category: "Cinema Camera Rental",
@@ -165,7 +165,7 @@ const products = PACKAGES.map((p) => ({
 const videoObject = {
   "@type": "VideoObject",
   "@id": `${SITE_URL}/#showreel`,
-  name: "BIG STORY · RED RENTAL — RED Komodo X 6K Showreel",
+  name: "BIG STORY · RED RENTAL, RED Komodo X 6K Showreel",
   description:
     "Cinema showreel shot on the RED Komodo X 6K, the flagship camera in the BIG STORY · RED RENTAL Dubai kit.",
   thumbnailUrl: [`${SITE_URL}/og.jpg`],
@@ -178,15 +178,15 @@ const videoObject = {
 const FAQS = [
   {
     q: "How much does it cost to rent a RED Komodo X in Dubai?",
-    a: "RED Komodo X rental in Dubai starts at AED 900/day for the camera body-only package. The RED Cinema Master Kit is AED 1,400/day and the RED Flagship Full Bundle — camera, cine lenses, lighting and audio — is AED 1,800/day. All rates are launch pricing, below the Dubai market rate.",
+    a: "RED Komodo X rental in Dubai starts at AED 900/day for the camera body-only package. The RED Cinema Master Kit is AED 1,400/day and the RED Flagship Full Bundle (camera, cine lenses, lighting and audio) is AED 1,800/day. All rates are launch pricing, below the Dubai market rate.",
   },
   {
     q: "Do you deliver the cinema camera rental?",
-    a: "Yes. Delivery and pickup are free anywhere within Dubai, with the equipment set up on arrival by our team. Delivery to other UAE emirates — Abu Dhabi, Sharjah, RAK, Ajman, Al Ain and Fujairah — is available from AED 200.",
+    a: "Yes. Delivery and pickup are free anywhere within Dubai, with the equipment set up on arrival by our team. Delivery to other UAE emirates (Abu Dhabi, Sharjah, RAK, Ajman, Al Ain and Fujairah) is available from AED 200.",
   },
   {
     q: "Is the RED Komodo X Netflix approved?",
-    a: "Yes. The RED Komodo X 6K is a Netflix-approved cinema camera with a Super35 global shutter sensor, 16+ stops of dynamic range and REDCODE RAW recording — broadcast and streaming compliant.",
+    a: "Yes. The RED Komodo X 6K is a Netflix-approved cinema camera with a Super35 global shutter sensor, 16+ stops of dynamic range and REDCODE RAW recording, broadcast and streaming compliant.",
   },
   {
     q: "Does the rental include a camera operator or specialist?",
@@ -194,7 +194,7 @@ const FAQS = [
   },
   {
     q: "What is included in the RED Komodo X flagship bundle?",
-    a: "The AED 1,800/day flagship bundle is a complete film set: RED Komodo X 6K body, DZOFILM Arles T1.4 cine prime lens set, Aputure and Nanlite lighting, a Zoom F8n Pro audio recording rig, wireless monitoring and follow focus, grip and a certified RED specialist on set — delivered in a dedicated van.",
+    a: "The AED 1,800/day flagship bundle is a complete film set: RED Komodo X 6K body, DZOFILM Arles T1.4 cine prime lens set, Aputure and Nanlite lighting, a Zoom F8n Pro audio recording rig, wireless monitoring and follow focus, grip and a certified RED specialist on set, delivered in a dedicated van.",
   },
   {
     q: "Do you rent cinema cameras outside Dubai in the UAE?",
@@ -224,7 +224,7 @@ const howTo = {
     "Book a RED Komodo X 6K cinema camera rental in Dubai in three steps with BIG STORY · RED RENTAL.",
   step: [
     { "@type": "HowToStep", position: 1, name: "Pick your dates & package", text: "Use the online booking form to add each shoot day, select a package and choose a transport zone." },
-    { "@type": "HowToStep", position: 2, name: "Send via WhatsApp", text: "Send your order via WhatsApp — we confirm availability within a few hours." },
+    { "@type": "HowToStep", position: 2, name: "Send via WhatsApp", text: "Send your order via WhatsApp; we confirm availability within a few hours." },
     { "@type": "HowToStep", position: 3, name: "Bank transfer to confirm", text: "Transfer the rental amount by bank transfer to lock in your booking. Our specialist then arrives ready to shoot." },
   ],
 };

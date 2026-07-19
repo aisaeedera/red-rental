@@ -1,5 +1,5 @@
 // ============================================================
-// RED Komodo X rental — content model (verbatim from original)
+// RED Komodo X rental, content model (verbatim from original)
 // ============================================================
 
 export const CONTACT = {
@@ -72,7 +72,7 @@ export const PACKAGES: Pkg[] = [
     featured: true,
     included: [
       { text: "Camera Brain (All items above)", kind: "plus" },
-      { text: "DZOFILM Arles Prime T1.4 — 25mm, 35mm, 50mm, 75mm, 100mm", kind: "plus" },
+      { text: "DZOFILM Arles Prime T1.4: 25mm, 35mm, 50mm, 75mm, 100mm", kind: "plus" },
       { text: "DZOFILM Marlin 1.6× PL→RF Lens Adapter", kind: "plus" },
       { text: "METABONES 0.71× PL→RF Speed Booster", kind: "plus" },
       { text: "Tilta Mirage Motorized ND Filters", kind: "plus" },
@@ -95,7 +95,7 @@ export const PACKAGES: Pkg[] = [
     save: "SAVE 55%",
     price: 1800,
     unit: "per day · 9 hours · full set",
-    desc: "This is NOT just a camera and lens. It's a complete film set delivered in a van: RED Cinema Master Kit + professional lighting studio + full audio recording rig — everything your crew needs to arrive and roll.",
+    desc: "This is NOT just a camera and lens. It's a complete film set delivered in a van: RED Cinema Master Kit + professional lighting studio + full audio recording rig, everything your crew needs to arrive and roll.",
     fire: true,
     included: [
       { text: "Everything in RED Cinema Master Kit", kind: "plus" },
@@ -119,7 +119,7 @@ export const PKG_FOOTNOTE =
 
 // ---------- audiences ----------
 export const AUDIENCES = [
-  { icon: "📺", title: "Commercial Shoots", desc: "TVCs, product films, brand campaigns — shot on cinema-grade RED 6K." },
+  { icon: "📺", title: "Commercial Shoots", desc: "TVCs, product films, brand campaigns, shot on cinema-grade RED 6K." },
   { icon: "🎞️", title: "Brand Films", desc: "Corporate storytelling and branded content that demands visual authority." },
   { icon: "🎬", title: "Short Films", desc: "Indie and festival shorts with the cinematic look that separates good from great." },
   { icon: "📱", title: "Social Media Campaigns", desc: "High-end content for Instagram, TikTok and YouTube that stops the scroll." },
@@ -211,22 +211,22 @@ export const KIT_CATEGORIES = [
 ];
 
 export const FIRE_SALE_QUOTE =
-  'Think of it like renting a fully crewed studio van. Your director calls action — the gear is already set up, calibrated, and ready. This is what AED 1,800/day looks like when you add it all up individually: camera alone is AED 999, 5 cine lenses easily AED 800+, lights AED 850, audio AED 300, specialist AED 600. You\'re getting AED 3,500+ worth of value at fire sale pricing.';
+  'Think of it like renting a fully crewed studio van. Your director calls action, and the gear is already set up, calibrated, and ready. This is what AED 1,800/day looks like when you add it all up individually: camera alone is AED 999, 5 cine lenses easily AED 800+, lights AED 850, audio AED 300, specialist AED 600. You\'re getting AED 3,500+ worth of value at fire sale pricing.';
 
 // ---------- delivery ----------
 export const DELIVERY = [
-  { icon: "🚐", title: "Dubai — Single Location", rate: "FREE", free: true, desc: "Free delivery and pickup to any single location within Dubai. Equipment set up on arrival.", note: "Included with all packages" },
-  { icon: "🔄", title: "Dubai — Multi-Location", rate: "+250 AED", desc: "Moving between multiple shoot locations within Dubai on the same day.", note: "Flat rate per additional move" },
-  { icon: "🏙️", title: "Other Emirates — Single Location", rate: "+200 AED", desc: "Delivery and pickup to a single shoot location outside Dubai (Sharjah, Abu Dhabi, RAK, etc.).", note: "Added to rental invoice" },
-  { icon: "📍", title: "Other Emirates — Multi-Location", rate: "+450 AED", desc: "Delivery to another emirate (AED 200) plus point-to-point moves (AED 250) for multi-location shoots.", note: "AED 200 + AED 250" },
+  { icon: "🚐", title: "Dubai, Single Location", rate: "FREE", free: true, desc: "Free delivery and pickup to any single location within Dubai. Equipment set up on arrival.", note: "Included with all packages" },
+  { icon: "🔄", title: "Dubai, Multi-Location", rate: "+250 AED", desc: "Moving between multiple shoot locations within Dubai on the same day.", note: "Flat rate per additional move" },
+  { icon: "🏙️", title: "Other Emirates, Single Location", rate: "+200 AED", desc: "Delivery and pickup to a single shoot location outside Dubai (Sharjah, Abu Dhabi, RAK, etc.).", note: "Added to rental invoice" },
+  { icon: "📍", title: "Other Emirates, Multi-Location", rate: "+450 AED", desc: "Delivery to another emirate (AED 200) plus point-to-point moves (AED 250) for multi-location shoots.", note: "AED 200 + AED 250" },
 ];
 
 // transport options for booking builder
 export const TRANSPORT = [
-  { id: "dxb-single", label: "🚐 Dubai — Single (Free)", cost: 0 },
-  { id: "dxb-multi", label: "🔄 Dubai — Multi (+250)", cost: 250 },
-  { id: "oe-single", label: "🏙️ Other Emirate — Single (+200)", cost: 200 },
-  { id: "oe-multi", label: "📍 Other Emirate — Multi (+450)", cost: 450 },
+  { id: "dxb-single", label: "🚐 Dubai, Single (Free)", cost: 0 },
+  { id: "dxb-multi", label: "🔄 Dubai, Multi (+250)", cost: 250 },
+  { id: "oe-single", label: "🏙️ Other Emirate, Single (+200)", cost: 200 },
+  { id: "oe-multi", label: "📍 Other Emirate, Multi (+450)", cost: 450 },
 ];
 
 // ---------- launch T&Cs ----------
@@ -240,7 +240,7 @@ export const LAUNCH_TCS = [
 // ---------- how to book ----------
 export const STEPS = [
   { num: "01", title: "Pick Your Dates", desc: "Use the booking form below. Add each shoot day, select a package and transport zone per day." },
-  { num: "02", title: "Send via WhatsApp", desc: "Hit the WhatsApp button — your full order details are sent to us instantly. We confirm within a few hours." },
+  { num: "02", title: "Send via WhatsApp", desc: "Hit the WhatsApp button and your full order details are sent to us instantly. We confirm within a few hours." },
   { num: "03", title: "Bank Transfer", desc: "We send you our RAK Bank details. Transfer the amount to lock in your booking. No card fees." },
   { num: "04", title: "We Arrive Ready", desc: "Our specialist arrives at your location on time with the full kit loaded, assembled and calibrated." },
 ];
@@ -255,7 +255,7 @@ export const SPECIALIST_POINTS = [
 
 // ---------- add-ons ----------
 export const ADDONS = [
-  { category: "Communications", name: "Hollyland 6-Person Intercom", price: 200, unit: "/ day", desc: "Hollyland 6-person noise-cancelling intercom headset — full duplex wireless communication across your entire crew." },
+  { category: "Communications", name: "Hollyland 6-Person Intercom", price: 200, unit: "/ day", desc: "Hollyland 6-person noise-cancelling intercom headset, full duplex wireless communication across your entire crew." },
 ];
 
 export const SPECIALIST_FEE = 900;
@@ -287,7 +287,7 @@ export const COMP_DIFF = {
     { label: "Dynamic Range", cells: ["16+ stops", "15 stops", "15 stops", "13 stops"] },
     { label: "Netflix / Broadcast Approved", cells: ["✓ Netflix Approved", "Limited use", "✓ Netflix Approved", "✗"] },
     { label: "RAW Recording", cells: ["✓ REDCODE RAW", "External RAW only", "External RAW only", "✓ BRAW"] },
-    { label: "Color Science", cells: ["RED IPP2 — industry gold standard", "Sony S-Cinetone / S-Log3", "Sony S-Cinetone / S-Log3", "Blackmagic Film"] },
+    { label: "Color Science", cells: ["RED IPP2, industry gold standard", "Sony S-Cinetone / S-Log3", "Sony S-Cinetone / S-Log3", "Blackmagic Film"] },
     { label: "Cine Prime Lenses Included", cells: ["✓ DZOFILM Arles 5-lens set (with bundle)", "✗", "✗", "✗"] },
     { label: "Lighting Package", cells: ["✓ 2× Aputure 600D Pro + Nanlite Pavotube (with bundle)", "✗", "✗", "✗"] },
     { label: "Camera Specialist On Set", cells: ["✓ Included", "✗", "✗", "✗"] },
@@ -297,12 +297,12 @@ export const COMP_DIFF = {
 };
 
 export const COMP_NOTE =
-  "* Competitor pricing benchmarked against publicly available UAE rental market listings. Prices are per-day body rates, subject to change. BIG STORY flagship bundle pricing includes all listed components — no hidden add-ons.";
+  "* Competitor pricing benchmarked against publicly available UAE rental market listings. Prices are per-day body rates, subject to change. BIG STORY flagship bundle pricing includes all listed components, with no hidden add-ons.";
 
 // ---------- demo ----------
 export const DEMO_FEATURES = [
   { num: "1", title: "Try Before You Rent", desc: "Get familiar with the RED Komodo X rig before committing to a full rental day." },
-  { num: "2", title: "Expert Guidance", desc: "Our RED specialist walks you through setup, menu, and key features — DOPs, directors, and operators all welcome." },
+  { num: "2", title: "Expert Guidance", desc: "Our RED specialist walks you through setup, menu, and key features. DOPs, directors, and operators all welcome." },
   { num: "3", title: "We Come to You", desc: "Our team brings the full rig to your studio or location. Dubai only. Sessions run 45 min – 2 hours." },
 ];
 
