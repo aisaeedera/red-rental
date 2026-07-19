@@ -4,6 +4,13 @@ const SITE_URL = "https://red.filmwithbigstory.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date("2026-07-13");
+  const landingLastModified = new Date();
+  const landingPages = [
+    "camera-rental-dubai",
+    "cinema-camera-rental-dubai",
+    "red-komodo-x-rental",
+    "b-cam-rental-dubai",
+  ];
   return [
     {
       url: SITE_URL,
@@ -23,5 +30,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    ...landingPages.map((slug) => ({
+      url: `${SITE_URL}/${slug}`,
+      lastModified: landingLastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
   ];
 }
