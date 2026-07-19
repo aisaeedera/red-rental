@@ -10,6 +10,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "cinema-camera-rental-dubai",
     "red-komodo-x-rental",
     "b-cam-rental-dubai",
+    "lens-rental-dubai",
+    "prime-lens-rental-dubai",
+    "lowa-probe-lens-rental-dubai",
   ];
   return [
     {
