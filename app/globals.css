@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   RED KOMODO X RENTAL — BIG STORY design system
+   RED KOMODO X RENTAL - BIG STORY design system
    ============================================================ */
 :root {
   --black: #050505;
@@ -1438,4 +1438,128 @@ table.comp td.us {
 }
 .hl-red {
   color: var(--red);
+}
+
+/* ============================================================
+   LENS LANDING PAGES (lens / prime / probe rental Dubai)
+   ============================================================ */
+.lens-hero {
+  padding: 84px 0 56px;
+  border-bottom: 1px solid var(--gray-1);
+  background: radial-gradient(circle at 75% 15%, rgba(201, 168, 76, 0.1), transparent 55%),
+    var(--black);
+}
+.lens-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 76px);
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 14px 0 20px;
+}
+.lens-hero h1 .red {
+  color: var(--red);
+}
+.lens-hero h1 .gold {
+  color: var(--gold);
+}
+.lens-lede {
+  color: var(--white-dim);
+  max-width: 680px;
+  font-size: clamp(16px, 2vw, 19px);
+}
+.lens-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+.lens-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 28px;
+}
+@media (max-width: 620px) {
+  .lens-spec-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.lens-spec-item {
+  background: var(--black-3);
+  border: 1px solid var(--gray-1);
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+.lens-spec-item dt {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.lens-spec-item dd {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.lens-prose p {
+  color: var(--white-dim);
+  max-width: 760px;
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+.lens-prose p a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.lens-prose p a:hover {
+  color: var(--gold-light);
+}
+.lens-crosslinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 30px;
+}
+@media (max-width: 620px) {
+  .lens-crosslinks {
+    grid-template-columns: 1fr;
+  }
+}
+.lens-crosslink-card {
+  display: block;
+  background: var(--black-3);
+  border: 1px solid var(--gray-1);
+  border-radius: 8px;
+  padding: 24px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.lens-crosslink-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.lens-crosslink-card h3 {
+  font-family: var(--font-cond);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: var(--white);
+}
+.lens-crosslink-card p {
+  color: var(--white-dim);
+  font-size: 15px;
+}
+.lens-crosslink-card .arrow {
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 12px;
+  display: inline-block;
 }

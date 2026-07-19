@@ -94,7 +94,7 @@ export function Perfect() {
         </h2>
         <p className="section-intro">
           BIG STORY · RED RENTAL is Dubai&apos;s specialist for RED Komodo X 6K
-          cinema camera rental — a Netflix-approved camera delivered ready-to-shoot with a
+          cinema camera rental - a Netflix-approved camera delivered ready-to-shoot with a
           certified RED specialist on set. Whether you need cinema camera rental in Dubai for a
           TVC, a RED camera rental across the UAE for a short film, or full film equipment rental
           in Dubai for a branded campaign, every kit ships from AED 900/day.
@@ -124,7 +124,7 @@ export function KitManifest() {
         </h2>
         <p className="section-intro">
           People often assume the flagship is just a camera with a lens. Here&apos;s the full
-          manifest — this is an entire film set delivered to your location.
+          manifest - this is an entire film set delivered to your location.
         </p>
 
         <div className="grid grid-2">
@@ -162,8 +162,8 @@ export function Delivery() {
         </h2>
         <p className="section-intro">
           Free RED Komodo X rental delivery within Dubai, with cinema camera rental delivery
-          available across the UAE — Abu Dhabi, Sharjah, RAK, Ajman, Al Ain and Fujairah. All RED
-          equipment is transported in a dedicated van by our team. There is no client pickup — we
+          available across the UAE - Abu Dhabi, Sharjah, RAK, Ajman, Al Ain and Fujairah. All RED
+          equipment is transported in a dedicated van by our team. There is no client pickup - we
           come to you, and the kit is set up ready-to-shoot on arrival.
         </p>
         <div className="grid grid-4">
@@ -189,11 +189,11 @@ export function Launch() {
       <div className="wrap">
         <div className="section-eyebrow">Limited Availability</div>
         <h2 className="section-title">
-          Launch Pricing — <span className="red">Limited Productions</span>
+          Launch Pricing - <span className="red">Limited Productions</span>
         </h2>
         <p className="section-intro">
           These rates are launch pricing available to a limited number of productions. We are
-          selectively onboarding productions that align with the BIG STORY portfolio — once
+          selectively onboarding productions that align with the BIG STORY portfolio - once
           our calendar fills, rates will move to standard market pricing.
         </p>
         <p className="section-intro" style={{ marginTop: -28 }}>
@@ -223,7 +223,7 @@ export function Launch() {
             marginBottom: 6,
           }}
         >
-          Rental T&amp;Cs — What We Ask In Return
+          Rental T&amp;Cs - What We Ask In Return
         </h3>
         <div className="tcs">
           {LAUNCH_TCS.map((t) => (
@@ -237,7 +237,7 @@ export function Launch() {
           ))}
         </div>
         <p className="mono" style={{ fontSize: 12, color: "var(--gray-4)", marginTop: 18 }}>
-          ℹ All content used exclusively within our business channels — @{CONTACT.instagram} and
+          ℹ All content used exclusively within our business channels - @{CONTACT.instagram} and
           BIG STORY Film Production platforms only.
         </p>
       </div>
@@ -266,7 +266,7 @@ export function HowToBook() {
         <div className="launch-box" style={{ marginTop: 34 }}>
           <h3>✉ Prefer Email?</h3>
           <p className="muted">
-            Reach us directly at {CONTACT.email} — we respond within 24 hours.
+            Reach us directly at {CONTACT.email} - we respond within 24 hours.
           </p>
           <a className="btn btn-ghost" href={`mailto:${CONTACT.email}`} style={{ marginTop: 14 }}>
             Email Us →
@@ -287,7 +287,7 @@ export function Specialist() {
           RED Certified <span className="red">Camera Specialist</span>
         </h2>
         <p className="section-intro">
-          Your on-set RED operator handles everything from van unloading to final pack-down —
+          Your on-set RED operator handles everything from van unloading to final pack-down -
           so your crew can focus entirely on the shot. Full logistics, rigging, operation
           support, focus pulling, camera technical issues, and end-of-day disassembly and
           repacking into the van. Included automatically with the Flagship Bundle. Available as
@@ -309,7 +309,7 @@ export function Specialist() {
               ))}
             </ul>
             <div className="badge badge-red" style={{ marginTop: 18 }}>
-              🔒 Mandatory — auto-included with all RED packages
+              🔒 Mandatory - auto-included with all RED packages
             </div>
           </div>
 
@@ -323,7 +323,7 @@ export function Specialist() {
             </div>
             <p className="muted" style={{ marginTop: 18, fontSize: 14 }}>
               RED-certified camera assistants in Dubai typically charge AED 900–1,500/day. BIG
-              STORY provides the same expertise at launch pricing — lock in your rate before it
+              STORY provides the same expertise at launch pricing - lock in your rate before it
               moves to market.
             </p>
             <p className="muted" style={{ marginTop: 14, fontSize: 13 }}>
@@ -347,7 +347,7 @@ export function Payment() {
           Bank <span className="gold">Transfer</span>
         </h2>
         <p className="section-intro">
-          We accept payment by bank transfer only — zero commission fees. Once your booking is
+          We accept payment by bank transfer only - zero commission fees. Once your booking is
           confirmed, transfer the amount and send us your receipt.
         </p>
         <div className="bank-card">
@@ -434,7 +434,7 @@ export function Agreements() {
         </h2>
         <p className="section-intro">
           The documents below are our current working versions. They are subject to ongoing
-          updates and improvements — the final signed version will always be sent to you
+          updates and improvements - the final signed version will always be sent to you
           directly before your shoot date.
         </p>
         <div className="grid grid-2">
@@ -454,7 +454,7 @@ export function Agreements() {
                 >
                   📄 View / Download →
                 </a>
-                <span className="warn">⚠ Subject to updates — final version sent directly to you</span>
+                <span className="warn">⚠ Subject to updates - final version sent directly to you</span>
               </div>
             </div>
           ))}
@@ -486,28 +486,34 @@ export function Footer() {
           <div className="footer-col">
             <h5>Packages</h5>
             <ul>
-              <li>RED Camera Brain Only — AED 900</li>
-              <li>RED Cinema Master Kit — AED 1,400</li>
-              <li>🔥 RED Flagship Full Bundle — AED 1,800</li>
-              <li>RED Camera Specialist — AED 900 (Launch)</li>
+              <li>RED Camera Brain Only - AED 900</li>
+              <li>RED Cinema Master Kit - AED 1,400</li>
+              <li>🔥 RED Flagship Full Bundle - AED 1,800</li>
+              <li>RED Camera Specialist - AED 900 (Launch)</li>
             </ul>
           </div>
           <div className="footer-col">
             <h5>Links</h5>
             <ul>
               <li>
+                <a href="https://red.filmwithbigstory.com/">Home</a>
+              </li>
+              <li>
+                <a href="/lens-rental-dubai">Lens Rental Dubai</a>
+              </li>
+              <li>
+                <a href="/prime-lens-rental-dubai">Prime Lens Rental</a>
+              </li>
+              <li>
+                <a href="/lowa-probe-lens-rental-dubai">Laowa Probe Lens Rental</a>
+              </li>
+              <li>
                 <a href={CONTACT.instagramUrl} target="_blank" rel="noopener noreferrer">
                   📸 Follow @{CONTACT.instagram}
                 </a>
               </li>
               <li>
-                <a href="#demo">Book Free Demo</a>
-              </li>
-              <li>
                 <a href="#agreements">Rental Agreement</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
               </li>
               <li>
                 <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a>
