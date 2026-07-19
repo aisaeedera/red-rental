@@ -48,7 +48,7 @@ export default function AgreementDoc({
               src="/bigstory-logo.svg"
               width={264}
               height={64}
-              alt="BIG STORY — official company logo (dark badge with serif B and gold dot, wordmark BIG·STORY)"
+              alt="BIG STORY, official company logo (dark badge with serif B and gold dot, wordmark BIG·STORY)"
             />
             <div className="ad-brand-sub">RED RENTAL</div>
           </div>
@@ -87,7 +87,7 @@ export default function AgreementDoc({
         </section>
 
         <section className="ad-section">
-          <h2>2. Equipment Checklist — {conditionLabel}</h2>
+          <h2>2. Equipment Checklist, {conditionLabel}</h2>
           <table className="ad-table">
             <thead>
               <tr>
@@ -148,7 +148,7 @@ export default function AgreementDoc({
             {docCode} · BIG STORY · RED RENTAL · {CONTACT.location} · {CONTACT.phoneDisplay}
           </div>
           <div className="ad-foot-note">
-            Payment by bank transfer only — {BANK.bank}, {BANK.accountName}. This is a
+            Payment by bank transfer only, to {BANK.bank}, {BANK.accountName}. This is a
             working document and is subject to updates; the final signed version is sent
             directly before your shoot date.
           </div>

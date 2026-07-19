@@ -11,7 +11,7 @@ export function DemoSection() {
   const [datetime, setDatetime] = useState("");
   const [interest, setInterest] = useState("RED Komodo X Full Rig Bundle");
 
-  const message = `Hi BIG STORY — I'd like to book a FREE DEMO.\n\nName: ${name || "-"}\nPhone: ${phone || "-"}\nCompany/Project: ${company || "-"}\nPreferred date & time: ${datetime || "-"}\nEquipment interest: ${interest}`;
+  const message = `Hi BIG STORY, I'd like to book a FREE DEMO.\n\nName: ${name || "-"}\nPhone: ${phone || "-"}\nCompany/Project: ${company || "-"}\nPreferred date & time: ${datetime || "-"}\nEquipment interest: ${interest}`;
 
   return (
     <section className="section" id="demo" style={{ background: "var(--black-2)" }}>
@@ -90,7 +90,7 @@ export function ContactForm() {
   const [purpose, setPurpose] = useState("Rental Enquiry");
   const [message, setMessage] = useState("");
 
-  const wa = `Hi BIG STORY — ${purpose}.\n\n${message}`;
+  const wa = `Hi BIG STORY, ${purpose}.\n\n${message}`;
 
   return (
     <div className="builder" style={{ maxWidth: 560 }}>

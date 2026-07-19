@@ -53,7 +53,7 @@ export default function Compare() {
           How We Compare <span className="gold">In Dubai</span>
         </h2>
         <p className="section-intro">
-          See how BIG STORY&apos;s RED packages stack up — both against competitors renting
+          See how BIG STORY&apos;s RED packages stack up, both against competitors renting
           the same RED camera, and against lower-tier cameras being rented at comparable
           prices elsewhere.
         </p>

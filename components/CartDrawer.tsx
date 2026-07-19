@@ -8,8 +8,8 @@ export default function CartDrawer() {
   const message =
     items.length === 0
       ? ""
-      : `Hi BIG STORY — I'd like to book:\n${items
-          .map((i) => `• ${i.name} — AED ${i.price} ${i.unit}`)
+      : `Hi BIG STORY, I'd like to book:\n${items
+          .map((i) => `• ${i.name}, AED ${i.price} ${i.unit}`)
           .join("\n")}\nDays: ${days}\nEstimated total: AED ${total.toLocaleString()} (excl. delivery & overtime)`;
 
   return (

@@ -24,10 +24,10 @@ export default function Packages() {
             <div className="badge badge-gold" style={{ marginBottom: 10 }}>
               20% OFF
             </div>
-            <h3>Early Booking Discount — Equipment Only</h3>
-            <p>
-              Book 7+ days in advance and pay in full — get 20% off the equipment package.
-              The RED specialist fee is limited-time pricing — fixed for current bookings
+            <h3>Early Booking Discount, Equipment Only</h3>
+            <p className="muted" style={{ fontSize: 13 }}>
+              Book 7+ days in advance and pay in full to get 20% off the equipment package.
+              The RED specialist fee is limited-time pricing, fixed for current bookings
               only. Discount is applied per eligible shoot day automatically in the booking
               form.
             </p>
