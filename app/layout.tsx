@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Barlow, Barlow_Condensed, IBM_Plex_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { CONTACT, PACKAGES } from "@/lib/data";
 
@@ -265,6 +267,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
