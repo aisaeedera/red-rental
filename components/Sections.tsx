@@ -486,10 +486,10 @@ export function Footer() {
           <div className="footer-col">
             <h5>Packages</h5>
             <ul>
-              <li>RED Camera Brain Only - AED 900</li>
-              <li>RED Cinema Master Kit - AED 1,400</li>
-              <li>🔥 RED Flagship Full Bundle - AED 1,800</li>
-              <li>RED Camera Specialist - AED 900 (Launch)</li>
+              <li><a href="#kit">RED Camera Brain Only - AED 900</a></li>
+              <li><a href="#kit">RED Cinema Master Kit - AED 1,400</a></li>
+              <li><a href="#kit">🔥 RED Flagship Full Bundle - AED 1,800</a></li>
+              <li><a href="#specialist">RED Camera Specialist - AED 900 (Launch)</a></li>
             </ul>
           </div>
           <div className="footer-col">
